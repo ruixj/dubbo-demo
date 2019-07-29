@@ -14,11 +14,7 @@
     <name>demo-annotation</name>
     <url>http://maven.apache.org</url>
     <dependencies>
-        <!-- Web -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
+
         <!-- dubbo -->
         <dependency>
             <groupId>com.alibaba</groupId>
