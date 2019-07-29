@@ -14,9 +14,15 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 public class App     {
     public static void main(String[] args) throws Exception {
-        SpringApplication.run(App.class);
-        System.out.println("Provider started.");
-        System.in.read(); // press any key to exit
+        try {
+            SpringApplication.run(App.class);
+            System.out.println("Provider started.");
+            System.in.read(); // press any key to exit
+        }
+        catch(Exception e)
+        {
+            e.printStackTrace();
+        }
     }
 
 
